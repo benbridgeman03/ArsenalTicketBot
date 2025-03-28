@@ -17,7 +17,6 @@ This bot automates the process of reserving tickets on the Arsenal ticketing pla
 
 ## Important Notes
 
-- **Confidential Information**: Keep your email, password, and Telegram API token secure. Avoid sharing this information publicly or committing it to a public repository.
 - **Testing**: Run the script in a test mode to ensure all configurations are correct before using it for live ticket purchases.
 - **Updates**: Check for updates to the ticketing process or platform, as changes might require script adjustments.
 
