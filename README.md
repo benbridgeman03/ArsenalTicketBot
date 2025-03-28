@@ -14,7 +14,7 @@ This bot automates the process of reserving tickets on the Arsenal ticketing pla
    - Configure the bot to send notifications via Telegram:
      - Set your **Telegram Bot API Token** in the script.
      - Add your **Chat ID** to receive notifications.
-  - Visit https://core.telegram.org/bots#how-do-i-create-a-bot for more info
+   - Visit https://core.telegram.org/bots#how-do-i-create-a-bot for more info
 
 ## Important Notes
 
