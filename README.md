@@ -34,7 +34,7 @@ This bot automates the process of reserving tickets on the Arsenal ticketing pla
 2. Install Playwright:
    ```bash
    pip install playwright
-   install playwright
+   playwright install
    ```
 3. Install Fake User-Agent
    ```bash
