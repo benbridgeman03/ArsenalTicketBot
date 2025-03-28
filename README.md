@@ -20,7 +20,7 @@ This bot automates the process of reserving tickets on the Arsenal ticketing pla
 
 - **Testing**: Run the script in a test mode to ensure all configurations are correct before using it for live ticket purchases.
 - **Updates**: Check for updates to the ticketing process or platform, as changes might require script adjustments.
-- **Paused Browsing**: If Ticketmaster has paused your browsing, wait a few minuets and try again.
+- **Paused Browsing**: If Ticketmaster has paused your browsing, close any open browsers, wait a few minuets and try again.
 
 ## Getting Started
 
