@@ -25,7 +25,7 @@ This bot automates the process of reserving tickets on the Arsenal ticketing pla
 
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/benbridgeman03/ArsenalTicketBot
    ```
 2. Install Playwright:
    ```bash
