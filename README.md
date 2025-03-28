@@ -11,10 +11,10 @@ This bot automates the process of reserving tickets on the Arsenal ticketing pla
    - Set the URL link to the **ticketing page** for the tickets you want to purchase. Ensure it is the correct page.
 
 3. **Telegram Integration**:
-   - https://core.telegram.org/bots/api
    - Configure the bot to send notifications via Telegram:
      - Set your **Telegram Bot API Token** in the script.
      - Add your **Chat ID** to receive notifications.
+  - Visit https://core.telegram.org/bots#how-do-i-create-a-bot for more info
 
 ## Important Notes
 
