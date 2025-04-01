@@ -11,19 +11,6 @@ telegramID = ""
 apiToken = ""
 qty = 2 #amount of tickets wanted
 
-def get_chatID():
-    apiURL = f'https://api.telegram.org/bot{apiToken}/getUpdates'
-    try:
-        response = requests.get(apiURL)
-        data = response.json()
-        if 'result' in data and len(data['result']) > 0:
-            chat_id = data['result'][0]['message']['chat']['id']
-            return chat_id
-        else:
-            return "No chat_id found"
-    except Exception as e:
-        return f"An error occurred: {e}"
-
 def send_message():
     apiURL = f'https://api.telegram.org/bot{apiToken}/sendMessage'
     try:
@@ -90,7 +77,6 @@ async def get_tickets(page):
     await asyncio.sleep(600)
 
 async def main():
-    get_chatID()
     ua = UserAgent().random
     print("Using UA:", ua)
 
